@@ -1,0 +1,924 @@
+
+*{ 
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    background-color :navy;
+    height: 5em;
+}
+img{
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+.head-tag{
+    float:right;
+    margin-top: 33px;
+    margin-right: 55px;
+}
+.head-tag a{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    margin-right: 8px;
+}
+.head-tag a:hover{
+    background-color:teal;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+body{
+    background-size: cover;
+}
+
+/* Login starts  */
+body{
+  margin:0;
+  color:#6a6f8c;
+  background-size: cover;
+  font:600 16px/18px 'Open Sans',sans-serif;
+}
+*,:after,:before{box-sizing:border-box}
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+a{color:inherit;text-decoration:none}
+
+.login-wrap{
+  width:100%;
+  margin:auto;
+  max-width:525px;
+  min-height:720px;
+  position:relative;
+ 
+  box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+.login-html{
+  width:100%;
+  height:100%;
+  position:absolute;
+  padding:90px 70px 50px 70px;
+  background:rgba(40,57,101,.9);
+}
+.login-html .sign-in-htm,
+.login-html .sign-up-htm{
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  position:absolute;
+  transform:rotateY(180deg);
+  backface-visibility:hidden;
+  transition:all .4s linear;
+}
+.login-html .sign-in,
+.login-html .sign-up,
+.login-form .group .check{
+  display:none;
+}
+.login-html .tab,
+.login-form .group .label,
+.login-form .group .button{
+  text-transform:uppercase;
+}
+.login-html .tab{
+  font-size:22px;
+  margin-right:15px;
+  padding-bottom:5px;
+  margin:0 15px 10px 0;
+  display:inline-block;
+  border-bottom:2px solid transparent;
+}
+.login-html .sign-in:checked + .tab,
+.login-html .sign-up:checked + .tab{
+  color:#fff;
+  border-color:#1161ee;
+}
+.login-form{
+  min-height:345px;
+  position:relative;
+  perspective:1000px;
+  transform-style:preserve-3d;
+}
+.login-form .group{
+  margin-bottom:15px;
+}
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group .button{
+  width:100%;
+  color:#fff;
+  display:block;
+}
+.login-form .group .input,
+.login-form .group .button{
+  border:none;
+  padding:15px 20px;
+  border-radius:25px;
+  background:rgba(255,255,255,.1);
+}
+.login-form .group input[data-type="password"]{
+  -webkit-text-security:circle;
+}
+.login-form .group .label{
+  color:#aaa;
+  font-size:12px;
+}
+.login-form .group .button{
+  background:#1161ee;
+}
+.login-form .group label .icon{
+  width:15px;
+  height:15px;
+  border-radius:2px;
+  position:relative;
+  display:inline-block;
+  background:rgba(255,255,255,.1);
+}
+.login-form .group label .icon:before,
+.login-form .group label .icon:after{
+  content:'';
+  width:10px;
+  height:2px;
+  background:#fff;
+  position:absolute;
+  transition:all .2s ease-in-out 0s;
+}
+.login-form .group label .icon:before{
+  left:3px;
+  width:5px;
+  bottom:6px;
+  transform:scale(0) rotate(0);
+}
+.login-form .group label .icon:after{
+  top:6px;
+  right:0;
+  transform:scale(0) rotate(0);
+}
+.login-form .group .check:checked + label{
+  color:#fff;
+}
+.login-form .group .check:checked + label .icon{
+  background:#1161ee;
+}
+.login-form .group .check:checked + label .icon:before{
+  transform:scale(1) rotate(45deg);
+}
+.login-form .group .check:checked + label .icon:after{
+  transform:scale(1) rotate(-45deg);
+}
+.login-html .sign-in:checked + .tab + .sign-up + .tab + .login-form .sign-in-htm{
+  transform:rotate(0);
+}
+.login-html .sign-up:checked + .tab + .login-form .sign-up-htm{
+  transform:rotate(0);
+}
+
+.hr{
+  height:2px;
+  margin:60px 0 50px 0;
+  background:rgba(255,255,255,.2);
+}
+.foot-lnk{
+  text-align:center;
+}
+
+
+/* login ends */
+
+
+.sidebar{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-justify: auto;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+.sidebar h3{
+    font-size:xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bolder;
+    color: orangered;
+    text-decoration-style: wavy;
+    text-align: center;
+}
+.sidebar p{
+  margin-left: 3%;
+}
+.myMargin{
+  margin-left: 8%;
+}
+.alignRow h3{
+  text-align:center ;
+  color: #df2060;
+  text-decoration-style: wavy;
+}
+.alignRow{
+  margin-left: 8%;
+}
+
+/* style of tvm strts*/
+.content-tvm h3{
+  font-size:xx-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: bolder;
+  color: green;
+  text-decoration-style: wavy;
+  text-align: center;
+
+}
+.content-tvm{
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: large;
+}
+.content-tvm h4{
+  font-size:x-large;
+  font-style:normal;
+  color:teal;
+}
+.tvm-destn{
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+.tvm-spots h5{
+  text-align:left;
+  font-size: x-large;
+  color:darkred;
+}
+.tvm-spots{
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: large;
+  text-align: left;
+}
+/* style of tvm ends */
+
+/* style of kollam strts */
+
+.content-kollam h3{
+  font-size:xx-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: bolder;
+  color: green;
+  text-decoration-style: wavy;
+  text-align: center;
+
+}
+.content-kollam{
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: large;
+}
+.content-kollam h4{
+  font-size:x-large;
+  font-style:normal;
+  color:teal;
+}
+.kollam-destn{
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+.kollam-spots h5{
+  text-align: left;
+  font-size: x-large;
+  color:darkred;
+}
+.kollam-spots{
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: large;
+  text-align: left;
+}
+/* style of kollam ends */
+
+/* style of aleppy strts*/
+.content-alap h3{
+  font-size:xx-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: bolder;
+  color: green;
+  text-decoration-style: wavy;
+  text-align: center;
+
+}
+.content-alap{
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: large;
+}
+.content-alap h4{
+  font-size:x-large;
+  font-style:normal;
+  color:teal;
+}
+.alap-destn{
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+.alap-spots h5{
+  text-align:left;
+  font-size: x-large;
+  color:darkred;
+}
+.alap-spots{
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: large;
+  text-align: left;
+}
+/* style of alepy ends */
+
+/* style of pathanamthitta strts*/
+.content-path h3{
+  font-size:xx-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: bolder;
+  color: green;
+  text-decoration-style: wavy;
+  text-align: center;
+
+}
+.content-path{
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: large;
+}
+.content-path h4{
+  font-size:x-large;
+  font-style:normal;
+  color:teal;
+}
+.path-destn{
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+.path-spots h5{
+  text-align:left;
+  font-size: x-large;
+  color:darkred;
+}
+.path-spots{
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: large;
+  text-align: left;
+}
+
+/* style of pathannamthitta ends */
+
+
+/* style of EKM strts*/
+.content-ekm h3{
+  font-size:xx-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: bolder;
+  color: green;
+  text-decoration-style: wavy;
+  text-align: center;
+
+}
+.content-ekm{
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: large;
+}
+.content-ekm h4{
+  font-size:x-large;
+  font-style:normal;
+  color:teal;
+}
+.ekm-destn{
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+.ekm-spots h5{
+  text-align:left;
+  font-size: x-large;
+  color:darkred;
+}
+.ekm-spots{
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: large;
+  text-align: left;
+}
+/* style of EKM ends */
+
+/* style of kottayam strts*/
+.content-kot h3{
+  font-size:xx-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: bolder;
+  color: green;
+  text-decoration-style: wavy;
+  text-align: center;
+
+}
+.content-kot{
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: large;
+}
+.content-kot h4{
+  font-size:x-large;
+  font-style:normal;
+  color:teal;
+}
+.kot-destn{
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+.kot-spots h5{
+  text-align:left;
+  font-size: x-large;
+  color:darkred;
+}
+.kot-spots{
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: large;
+  text-align: left;
+}
+/* style of kottayam ends */
+
+/* style of idukki strts*/
+.content-idk h3{
+  font-size:xx-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: bolder;
+  color: green;
+  text-decoration-style: wavy;
+  text-align: center;
+
+}
+.content-idk{
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: large;
+}
+.content-idk h4{
+  font-size:x-large;
+  font-style:normal;
+  color:teal;
+}
+.idk-destn{
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+.idk-spots h5{
+  text-align:left;
+  font-size: x-large;
+  color:darkred;
+}
+.idk-spots{
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: large;
+  text-align: left;
+}
+/* style of idukki ends */
+
+
+/* style of thrissur strts*/
+.content-thr h3{
+  font-size:xx-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: bolder;
+  color: green;
+  text-decoration-style: wavy;
+  text-align: center;
+
+}
+.content-thr{
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: large;
+}
+.content-thr h4{
+  font-size:x-large;
+  font-style:normal;
+  color:teal;
+}
+.thr-destn{
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+.thr-spots h5{
+  text-align:left;
+  font-size: x-large;
+  color:darkred;
+}
+.thr-spots{
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: large;
+  text-align: left;
+}
+/* style of thrissur ends */
+
+/* style of palakkad strts*/
+.content-plkd h3{
+  font-size:xx-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: bolder;
+  color: green;
+  text-decoration-style: wavy;
+  text-align: center;
+
+}
+.content-plkd{
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: large;
+}
+.content-plkd h4{
+  font-size:x-large;
+  font-style:normal;
+  color:teal;
+}
+.plkd-destn{
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+.plkd-spots h5{
+  text-align:left;
+  font-size: x-large;
+  color:darkred;
+}
+.plkd-spots{
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: large;
+  text-align: left;
+}
+/* style of palakkad ends */
+
+/* style of malappuram strts*/
+.content-mlp h3{
+  font-size:xx-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: bolder;
+  color: green;
+  text-decoration-style: wavy;
+  text-align: center;
+
+}
+.content-mlp{
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: large;
+}
+.content-mlp h4{
+  font-size:x-large;
+  font-style:normal;
+  color:teal;
+}
+.mlp-destn{
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+.mlp-spots h5{
+  text-align:left;
+  font-size: x-large;
+  color:darkred;
+}
+.mlp-spots{
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: large;
+  text-align: left;
+}
+/* style of malappuram ends */
+
+/* style of calicut strts*/
+.content-cal h3{
+  font-size:xx-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: bolder;
+  color: green;
+  text-decoration-style: wavy;
+  text-align: center;
+
+}
+.content-cal{
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: large;
+}
+.content-cal h4{
+  font-size:x-large;
+  font-style:normal;
+  color:teal;
+}
+.cal-destn{
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+.cal-spots h5{
+  text-align:left;
+  font-size: x-large;
+  color:darkred;
+}
+.cal-spots{
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: large;
+  text-align: left;
+}
+/* style of calicut ends */
+
+/* style of wayanad strts*/
+.content-way h3{
+  font-size:xx-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: bolder;
+  color: green;
+  text-decoration-style: wavy;
+  text-align: center;
+
+}
+.content-way{
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: large;
+}
+.content-way h4{
+  font-size:x-large;
+  font-style:normal;
+  color:teal;
+}
+.way-destn{
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+.way-spots h5{
+  text-align:left;
+  font-size: x-large;
+  color:darkred;
+}
+.way-spots{
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: large;
+  text-align: left;
+}
+/* style of wayanad ends */
+
+/* style of kannur strts*/
+.content-kan h3{
+  font-size:xx-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: bolder;
+  color: green;
+  text-decoration-style: wavy;
+  text-align: center;
+
+}
+.content-kan{
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: large;
+}
+.content-kan h4{
+  font-size:x-large;
+  font-style:normal;
+  color:teal;
+}
+.kan-destn{
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+.kan-spots h5{
+  text-align:left;
+  font-size: x-large;
+  color:darkred;
+}
+.kan-spots{
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: large;
+  text-align: left;
+}
+/* style of kannur ends */
+
+/* style of kasargod strts*/
+.content-kas h3{
+  font-size:xx-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: bolder;
+  color: green;
+  text-decoration-style: wavy;
+  text-align: center;
+
+}
+.content-kas{
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: large;
+}
+.content-kas h4{
+  font-size:x-large;
+  font-style:normal;
+  color:teal;
+}
+.kas-destn{
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+.kas-spots h5{
+  text-align:left;
+  font-size: x-large;
+  color:darkred;
+}
+.kas-spots{
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: large;
+  text-align: left;
+}
+/* style of kasargod ends */
+
+/* //about */
+
+/* services */
+h3.tittle {
+  color: #111;
+  font-size: 40px;
+}
+
+p.sub-tittle {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.ser-w3ls-wthree {
+  margin-bottom: 0px;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  padding: 3em 3em;
+  border: 1px solid rgba(171, 161, 161, 0.25);
+  border-top: 0;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border: 1px solid #bdbdbd;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.icon span {
+  color: #0fc39b;
+  line-height: 60px;
+  font-size: 28px;
+}
+
+.service-content {
+  margin-top: 1.5em;
+}
+
+.service-content h5 {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.ser-w3ls-wthree {
+  padding: 3em 3em;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-top: 0;
+  border-right: 0;
+}
+
+.ser-w3ls-wthree:nth-child(1) {
+  border-left: 0;
+}
+
+/* //services */
+
+.password-strength-indicator{
+  font-size: 12px;
+  display: inline-block;
+  height: 15px;
+  min-width: 20%;
+  text-align: center;
+  transition: 1s;
+  /* margin: 50px 0; */
+  color: #fff;
+}
+.password-strength-indicator.weak{
+  background: red;
+  width: 30%;
+}
+.password-strength-indicator.mediocre{
+  background:orange;
+  width: 60%;
+}
+.password-strength-indicator.strong{
+  background:green;
+  width: 100%;
+}
+/*  
+form .indicator{
+	height: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 10px 0;
+	display: none;
+}
+
+form .indicator span{
+	width: 100%;
+	height: 100%;
+	background: lightgrey;
+	border-radius: 5px;
+	position: relative;
+}
+
+form .indicator span.medium{
+	margin: 0 3px;
+}
+
+
+form .indicator span:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+
+form .indicator span.active.weak:before{
+	background: #ff4757;
+}
+
+form .indicator span.active.medium:before{
+	background: orange;
+}
+
+form .indicator span.active.strong:before{
+	background: #23ad5c;
+}
+
+form .text{
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: -10px;
+	display: none;
+}
+
+form .text.weak{
+	color: #ff4757;
+}
+
+form .text.medium{
+	color: orange;
+}
+
+form .text.strong{
+	color: #23ad5c;
+}
+ */

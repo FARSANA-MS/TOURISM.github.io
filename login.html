@@ -1,0 +1,146 @@
+<html>
+<link rel="stylesheet" href="css/style.css">
+<head><title>Login/Signup</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+    <script src="js/jquery.passwordstrength.js"></script>
+</head>
+
+<body background="./pictures/ker5.jpg">
+    <form action="wheretogo.html" onsubmit="return lvalidate()">
+<div class="login-wrap">
+	<div class="login-html">
+		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">LOG IN</label>
+		<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">SIGN UP</label>
+		<div class="login-form">
+			<div class="sign-in-htm">
+				<div class="group">
+					<label for="user" class="label">Email</label>
+					<input id="email" name="email" type="email" class="input" required>
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Password</label>
+					<input id="password" type="password" name="password" class="input" data-type="password" required>
+				</div>
+				<div class="group">
+					<input id="check" type="checkbox" class="check" checked>
+					<label for="check"><span class="icon"></span> Keep me Signed in</label>
+				</div>
+				<div class="group">
+				 <input type="submit" class="button" value="Log In" >
+               
+				</div>
+</form>
+				<div class="hr"></div>
+				<div class="foot-lnk">
+					<a href="#forgot">Forgot Password?</a>
+				</div>
+			</div>
+
+
+
+
+            <form action="" onsubmit="return svalidate()">
+			<div class="sign-up-htm">
+				<div class="group">
+					<label for="user" class="label">Name</label>
+					<input name="username" id="user" type="text" class="input" required>
+				</div>
+				
+				<div class="group">
+					<label for="pass" class="label">Email Address</label>
+					<input  name="pass" id="semail" type="email" class="input" required>
+                    
+				</div>
+                <div class="group">
+					<label for="pass" class="label">Phone Number</label>
+					<input name="pass" id="phone" type="text" class="input" required>
+				</div>
+
+				<div class="group">
+					<label for="pass" class="label">Password</label>
+					<input  name="pass" id="password1" type="password" class="input" data-type="password" required>
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Repeat Password</label>
+					<input id="password2" type="password" class="input" data-type="password" required>
+
+				</div>
+                
+				<br> 
+				<p class=""><b> Strength : </b></p>  
+				 <div id="typepass">  
+					  <div id="strengthResult"> 
+					  </div> 
+				  </div>
+				  <br>   
+                
+				
+				<div class="group">
+					<input type="submit" class="button" value="Sign Up">
+				</div>
+</form>
+ <!-- <script type="text/javascript">  -->
+     <!-- $(function() {  -->
+         <!-- $("#password").passwordStrength();  -->
+     <!-- });  -->
+ <!-- </script>  -->
+
+
+
+                  <div class="foot-lnk">
+					<label for="tab-1">Already Member?</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- social icons -->
+<div class="social-icons-footer social-w3pvt-footer border-top text-center pt-md-5 pt-4 mt-md-5 mt-4">
+	<ul class="list-unstyled">
+		<li>
+			<a href="#">
+				<span class="fa fa-facebook"></span>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<span class="fa fa-twitter"></span>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<span class="fa fa-dribbble"></span>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<span class="fa fa-instagram"></span>
+			</a>
+		</li>
+	</ul>
+</div>
+<!-- //social icons -->
+</div>
+</footer>
+<!-- //footer -->
+<!-- copyright -->
+<div class="cpy-right text-center py-3">
+<p>© 2021 Kerala Tousrism. All rights reserved | Design by
+<a href="#"> FARSANA.</a>
+</div>
+<!-- //copyright -->
+<!-- move top icon -->
+<a href="#home" class="move-top text-center">
+<span class="fa fa-chevron-circle-up" aria-hidden="true"></span>
+</a>
+<!-- //move top icon -->
+<script src="js/form.js"></script>
+<script type="text/javascript"> 
+	$(function() { 
+		$("#password1").passwordStrength(); 
+	}); 
+</script> 
+<script src="js/jquery.passwordstrength.js"></script>
+</body>
+</html>
